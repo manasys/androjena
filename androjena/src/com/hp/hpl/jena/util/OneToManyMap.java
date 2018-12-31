@@ -322,7 +322,7 @@ public class OneToManyMap<From, To> implements Map<From, To>
      * @param key The key object
      * @param value The value object
      */
-    public void remove( Object key, Object value ) {
+    public boolean /* void */ remove( Object key, Object value ) {
         List<To> entries = m_table.get( key );
 
         if (entries != null) {
@@ -332,6 +332,7 @@ public class OneToManyMap<From, To> implements Map<From, To>
                 m_table.remove( key );
             }
         }
+        return true;
     }
 
 

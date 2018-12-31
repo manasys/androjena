@@ -1,0 +1,6 @@
+
+
+build:
+	mvn clean package
+
+

@@ -3,22 +3,16 @@
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
         <modelVersion>4.0.0</modelVersion>
         <groupId>com.hp.hpl.jena</groupId>
-        <artifactId>tdboid</artifactId>
+        <artifactId>arqoid</artifactId>
         <version>0.5-serena-3</version>
         <packaging>jar</packaging>
-        <name>tdboid</name>
+        <name>arqoid</name>
 
     <build>
         <sourceDirectory>src</sourceDirectory>
     </build>
 
     <dependencies>
-        <dependency>
-            <groupId>com.google.android</groupId>
-            <artifactId>android</artifactId>
-            <version>4.1.1.4</version>
-            <scope>provided</scope>
-        </dependency>
         <dependency>
             <groupId>com.hp.hpl.jena</groupId>
             <artifactId>androjena</artifactId>
@@ -31,26 +25,15 @@
         </dependency>
         <dependency>
             <groupId>com.hp.hpl.jena</groupId>
-            <artifactId>arqoid</artifactId>
-            <version>0.5-serena-3</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.hp.hpl.jena</groupId>
             <artifactId>iri</artifactId>
             <version>0.8</version>
         </dependency>
 
         <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-android</artifactId>
-            <version>1.7.25</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.ibm.icu</groupId>
-            <artifactId>icu4j</artifactId>
-            <version>3.4.4</version>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>

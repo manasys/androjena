@@ -9,11 +9,13 @@ import java.util.* ;
 
 import arq.cmdline.*;
 import junit.framework.*;
+import org.junit.Ignore;
 
 /** 
  * @author Andy Seaborne
  */
 
+@Ignore
 public class TestCmdLine extends TestCase
 {
     public void test_Simple1()

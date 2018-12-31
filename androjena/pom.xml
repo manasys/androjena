@@ -3,10 +3,10 @@
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
         <modelVersion>4.0.0</modelVersion>
         <groupId>com.hp.hpl.jena</groupId>
-        <artifactId>tdboid</artifactId>
+        <artifactId>androjena</artifactId>
         <version>0.5-serena-3</version>
         <packaging>jar</packaging>
-        <name>tdboid</name>
+        <name>androjena</name>
 
     <build>
         <sourceDirectory>src</sourceDirectory>
@@ -18,21 +18,6 @@
             <artifactId>android</artifactId>
             <version>4.1.1.4</version>
             <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.hp.hpl.jena</groupId>
-            <artifactId>androjena</artifactId>
-            <version>0.5-serena-3</version>
-        </dependency>
-        <dependency>
-            <groupId>com.hp.hpl.jena</groupId>
-            <artifactId>lucenoid</artifactId>
-            <version>0.5-serena-3</version>
-        </dependency>
-        <dependency>
-            <groupId>com.hp.hpl.jena</groupId>
-            <artifactId>arqoid</artifactId>
-            <version>0.5-serena-3</version>
         </dependency>
 
         <dependency>
