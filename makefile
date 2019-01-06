@@ -1,0 +1,4 @@
+
+
+package:
+	mvn clean package
